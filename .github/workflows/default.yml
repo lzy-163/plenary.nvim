@@ -67,4 +67,4 @@ jobs:
           sudo luarocks install luacheck
 
       - name: Lint
-        run: sudo make lint
+        run: make lint
